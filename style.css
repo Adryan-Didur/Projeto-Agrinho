@@ -28,8 +28,11 @@ header{
     padding: 50px;
     background-color: var(--cor3)
 }
+header img{
+    height: 200px;
+}
 header h1{
-    font-family: var(--fonte2);
+    font-family: var(--fonte1);
     width: 800px;
     padding-bottom: 15px;
     margin: auto;
@@ -193,7 +196,7 @@ section#lista ul li{
     border-radius: 0px 20px;
     padding: 20px;
     margin-bottom: 20px;
-    height: 150px;
+    height: 100px;
     border: 1px solid black;
 }
 section#produtos{
@@ -241,10 +244,80 @@ section#produtos #produto-2{
     padding: 20px;
 }
 section#produtos #produto-2 .imagem{
-    background-image: url(imagens/banana.jpg);
+    background-image: url(imagens/boi.jpg);
     background-position: 50%;
     background-size: cover;
     width: 660px;
     height: 100px;
     margin: auto;
+}
+section#produtos #produto-3{
+    margin-top: 30px;
+    padding: 20px;
+}
+section#produtos #produto-3 .imagem{
+    background-image: url(imagens/soja.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 660px;
+    height: 100px;
+    margin: auto;
+}
+section#produtos #produto-4{
+    margin-top: 30px;
+    padding: 20px;
+}
+section#produtos #produto-4 .imagem{
+    background-image: url(imagens/acucar.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 660px;
+    height: 100px;
+    margin: auto;
+}
+section#produtos #produto-5{
+    margin-top: 30px;
+    padding: 20px;
+}
+section#produtos #produto-5 .imagem{
+    background-image: url(imagens/milho.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 660px;
+    height: 100px;
+    margin: auto;
+}
+section#produtos #produto-6{
+    margin-top: 30px;
+    padding: 20px;
+}
+section#produtos #produto-6 .imagem{
+    background-image: url(imagens/celulose.jpg);
+    background-position: 50%;
+    background-size: cover;
+    width: 660px;
+    height: 100px;
+    margin: auto;
+}
+footer{
+    padding-top: 100px;
+    height: 180px;
+    text-align: center;
+    background-color: var(--cor1);
+}
+footer nav{
+}
+footer nav a{
+    font-family: var(--fonte1);
+    font-size: 1.4em;
+    color: black;
+    text-decoration: none;
+}
+footer nav a:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    transition-duration: .3s;
 }
